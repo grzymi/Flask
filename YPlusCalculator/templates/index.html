@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Python Y+ calculator</title>
+ 
+ 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="https://getbootstrap.com/docs/3.3/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+ 
+ 
+</head>
+ 
+<body>
+<form method="POST"> 
+
+<h1>Remember to use coma ',' not dot '.'</h1>
+
+<p>
+<label for='uref'>Free stream velocity [m/s]</label>
+<input type="number" step="any" name="uref" id="uref" value="20" required autofocus>
+</p>
+<p>
+<label for='rho'>Density [kg/m^3]</label>
+<input type="number" step="any" name="rho" id="rho" value="1.225" required autofocus>
+</p>
+<p>
+<label for='mu'>Dynamic viscosity [kg/m*s]</label>
+<input type="number" step="any" name="mu" id="mu" value="0.000018375" required autofocus>
+</p>
+<p>
+<label for='lenght'>Reference lenght [m]</label>
+<input type="number" step="any" name="lenght" id="lenght" value="1" required autofocus>
+</p>
+<p>
+<label for='y+'>Desired Y+</label>
+<input type="number" step="any" name="y+" id="y+" value="1" required autofocus>
+</p>
+<p>
+<input type='submit' value='Calculate'>
+</p>
+</form>
+</body>
+ 
+</html>
